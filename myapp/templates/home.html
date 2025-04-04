@@ -1,7 +1,8 @@
 {% extends "base.html" %} {% block title %} Home Page {% endblock %}
 {% block content %}
+{% load static %}
 <figure class="figure">
-  <img src="..." class="figure-img img-fluid rounded" alt="...">
+  <img src="{% static 'images/fruits.png' %}" class="figure-img img-fluid rounded" alt="...">
   <figcaption class="figure-caption">A caption for the above image.</figcaption>
 </figure>
 {% endblock %}
