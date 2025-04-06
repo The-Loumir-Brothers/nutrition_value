@@ -1,8 +1,12 @@
 {% extends "base.html" %} {% block title %} Home Page {% endblock %}
 {% block content %}
-{% load static %}
-<figure class="figure">
-  <img src="{% static 'images/fruits.png' %}" class="figure-img img-fluid rounded" alt="...">
-  <figcaption class="figure-caption">A caption for the above image.</figcaption>
-</figure>
+<div class="d-flex flex-column justify-content-center align-items-center vh-100 text-center">
+    <h1>Value Your Nutrition</h1>
+  <br><br><br><br><br><br>
+  {% load static %}
+  <figure class="figure">
+    <img src="{% static 'images/fruits.png' %}" class="img-fluid mb-3" alt="Fruit Image">
+    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+  </figure>
+</div>
 {% endblock %}
