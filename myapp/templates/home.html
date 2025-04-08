@@ -1,4 +1,46 @@
 {% extends "base.html" %} {% block title %} Home Page {% endblock %}
 {% block content %}
-<p> this is the home page</p>
+<div class="d-flex flex-column justify-content-center align-items-center vh-100 text-center">
+    <h1>Value Your Nutrition</h1>
+  <br><br><br><br><br><br>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      {% load static %}
+      <img src="{% static 'images/nutrition_health.png' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      {% load static %}
+
+      <img src="{% static 'images/vegetables.png'%}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--  <figure class="figure">-->
+<!--    <img src="{% static 'images/fruits.png' %}" class="img-fluid mb-3" alt="Fruit Image">-->
+<!--    <figcaption class="figure-caption">Image source from Google Images</figcaption>-->
+<!--  </figure>-->
+
+  <h4>Take a look at the nutritional value of foods and browse through them</h4>
+  <h4>You can even add them to you "Box" to see all the nutrition you will get</h4>
+  <h4>for consuming the selected quantities of food</h4>
+  <br><br><br>
+  <a href="/foods.html" class="btn btn-outline-success mt-6 btn-lg">Browse Foods</a>
+
+</div>
+
+
+
 {% endblock %}

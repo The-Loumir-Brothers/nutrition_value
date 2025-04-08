@@ -1,0 +1,178 @@
+{% extends "base.html" %} {% block title %} Food Selection {% endblock %}
+{% block content %}
+
+{% load static %}
+
+<div class="container py-4">
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Fruits</h1>
+        <p class="card-text">Fruits are essential for a healthy diet</p>
+        <img src="{% static 'images/fruits.png' %}" class="img-fluid rounded-start" alt="Fruits Images">
+      </div>
+    </div>
+  </div>
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Vegetables</h1>
+        <p class="card-text">Enter text here</p>
+        <img src="{% static 'images/vegetables.png' %}" class="img-fluid rounded-start" alt="Vegetables Images">
+      </div>
+    </div>
+  </div>
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Meat, Poultry, Eggs</h1>
+        <p class="card-text">Enter text here</p>
+        <img src="{% static 'images/meat_poultry_fish.png' %}" class="img-fluid rounded-start" alt="Meat,Poultry,Eggs Image">
+      </div>
+    </div>
+  </div>
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Bread, Cereal, Rice</h1>
+        <p class="card-text">Enter text here</p>
+        <img src="{% static 'images/bread_cereal_rice.png' %}" class="img-fluid rounded-start" alt="Bread,Cereal,Rice">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--<div class="row row-cols-4 g-4">-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/fruits.png'%}" class="card-img-bottom" alt="Fruits Image">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Fruits</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/vegetables.png'%}" class="card-img-top" alt="Vegetables Image">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Vegetables</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/meat_poultry_fish.png'%}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Meat, Poultry, Fish</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/bread_cereal_rice.png'%}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Bread, Cereal, Rice</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<style>-->
+<!--    .pyramid-section {-->
+<!--      padding: 20px;-->
+<!--      border-radius: 10px;-->
+<!--      margin: 5px;-->
+<!--      color: white;-->
+<!--      font-size: 1.2rem;-->
+<!--      font-weight: 500;-->
+<!--    }-->
+<!--    .section-top    { background-color: #8e44ad; }  /* Sweets */-->
+<!--    .section-upper  { background-color: #e67e22; }  /* Oils/Dairy */-->
+<!--    .section-mid    { background-color: #27ae60; }  /* Proteins */-->
+<!--    .section-lower  { background-color: #f1c40f; }  /* Fruits/Grains */-->
+<!--    .section-bottom { background-color: #3498db; }  /* Vegetables */-->
+<!--  </style>-->
+
+<!--<div class="container text-center mt-5">-->
+
+<!--  <h2 class="mb-4">🍽️ My Food Pyramid</h2>-->
+
+<!--  &lt;!&ndash; Top Tier &ndash;&gt;-->
+<!--  <div class="row justify-content-center">-->
+<!--    <div class="col-4 pyramid-section section-top">-->
+<!--      🍰 Sweets & Treats-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  &lt;!&ndash; Upper Tier &ndash;&gt;-->
+<!--  <div class="row justify-content-center">-->
+<!--    <div class="col-3 pyramid-section section-upper">-->
+<!--      🧈 Oils & Fats-->
+<!--    </div>-->
+<!--    <div class="col-3 pyramid-section section-upper">-->
+<!--      🧀 Dairy-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  &lt;!&ndash; Mid Tier &ndash;&gt;-->
+<!--  <div class="row justify-content-center">-->
+<!--    <div class="col-3 pyramid-section section-mid">-->
+<!--      🍗 Meats-->
+<!--    </div>-->
+<!--    <div class="col-3 pyramid-section section-mid">-->
+<!--      🥚 Eggs-->
+<!--    </div>-->
+<!--    <div class="col-3 pyramid-section section-mid">-->
+<!--      🫘 Legumes-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  &lt;!&ndash; Lower Tier &ndash;&gt;-->
+<!--  <div class="row justify-content-center">-->
+<!--    <div class="col-3 pyramid-section section-lower">-->
+<!--      🍎 Fruits-->
+<!--    </div>-->
+<!--    <div class="col-3 pyramid-section section-lower">-->
+<!--      🍞 Grains-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  &lt;!&ndash; Base Tier &ndash;&gt;-->
+<!--  <div class="row justify-content-center">-->
+<!--    <div class="col-6 pyramid-section section-bottom">-->
+<!--      🥦🥕🥬 Vegetables (Base of Every Meal)-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--</div>-->
