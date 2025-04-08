@@ -2,44 +2,94 @@
 {% block content %}
 
 {% load static %}
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="{% static 'images/fruits.png'%}" class="card-img-top" alt="Fruits Image">
-      <div class="card-body">
-        <h5 class="card-title">Fruits</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+<div class="container py-4">
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Fruits</h1>
+        <p class="card-text">Fruits are essential for a healthy diet</p>
+        <img src="{% static 'images/fruits.png' %}" class="img-fluid rounded-start" alt="Fruits Images">
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="{% static 'images/vegetables.png'%}" class="card-img-top" alt="Vegetables Image">
-      <div class="card-body">
-        <h5 class="card-title">Vegetables</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Vegetables</h1>
+        <p class="card-text">Enter text here</p>
+        <img src="{% static 'images/vegetables.png' %}" class="img-fluid rounded-start" alt="Vegetables Images">
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="{% static 'images/meat_poultry_fish.png'%}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Meat, Poultry, Fish</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Meat, Poultry, Eggs</h1>
+        <p class="card-text">Enter text here</p>
+        <img src="{% static 'images/meat_poultry_fish.png' %}" class="img-fluid rounded-start" alt="Meat,Poultry,Eggs Image">
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="{% static 'images/bread_poultry_rice.png'%}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Bread, Cereal, Rice</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 mx-auto">
+      <div class="card text-center p-3 d-flex align-items-center">
+        <h1 class="card-title Display-1">Bread, Cereal, Rice</h1>
+        <p class="card-text">Enter text here</p>
+        <img src="{% static 'images/bread_cereal_rice.png' %}" class="img-fluid rounded-start" alt="Bread,Cereal,Rice">
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+<!--<div class="row row-cols-4 g-4">-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/fruits.png'%}" class="card-img-bottom" alt="Fruits Image">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Fruits</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/vegetables.png'%}" class="card-img-top" alt="Vegetables Image">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Vegetables</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/meat_poultry_fish.png'%}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Meat, Poultry, Fish</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row">-->
+<!--    <div class="card">-->
+<!--      <img src="{% static 'images/bread_cereal_rice.png'%}" class="card-img-top" alt="...">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Bread, Cereal, Rice</h5>-->
+<!--        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
 {% endblock %}
 
 
