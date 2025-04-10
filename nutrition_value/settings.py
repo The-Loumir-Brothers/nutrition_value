@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+from .top_secret import SECRET_KEY
 import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_ROOT = BASE_DIR / "staticfiles"
@@ -28,8 +29,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-m3_&7#t9jq4t1yavfa!+4npz=6rgyz*s+=((&b6$yqkouzcnsg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
