@@ -1,8 +1,11 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-.env
-.venv
-env/
+# Virtual environment
 venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Python cache
 __pycache__/
+*.py[cod]
